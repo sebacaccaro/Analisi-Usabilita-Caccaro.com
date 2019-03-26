@@ -1,0 +1,188 @@
+\documentclass[a4paper, oneside, openany, dvipsnames, table]{article}
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{lmodern}
+\usepackage{breakurl}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{csquotes}
+\usepackage{stile}
+
+
+
+
+
+\begin{document}
+\copertina
+\hypersetup{linkcolor=black}
+\tableofcontents
+
+\hypersetup{linkcolor=blue}
+\newpage
+
+\section{Introduzione}
+	\subsection{Scopo del documento}
+		\input{sez/Introduzione/scopoDoc.tex}
+	\subsection{Struttura del documento}
+		\input{sez/Introduzione/strutDoc.tex}
+	\subsection{Contesto}
+		\input{sez/Introduzione/contesto.tex}
+
+
+\newpage
+\section{Homepage}
+	\label{sez:Home}
+	\subsection{Assi informativi}
+		\subsubsection{Where}
+			\input{sez/HomePage/where.tex}
+		\subsubsection{Who}
+			\input{sez/HomePage/who.tex}
+		\subsubsection{Why}
+			\input{sez/HomePage/why.tex}
+		\subsubsection{What}
+			\input{sez/HomePage/what.tex}
+		\subsubsection{When}
+			\input{sez/HomePage/when.tex}
+		\subsubsection{How}
+			\input{sez/HomePage/how.tex}
+	\subsection{Considerazioni Generali}
+	\label{sec:HomeDesc}
+			\input{sez/HomePage/considerazioni.tex}	
+	\subsection{Mobile}
+			\input{sez/HomePage/mobile.tex}
+	\subsection{In Breve}
+			\input{sez/HomePage/breve.tex}
+			
+
+\newpage
+\section{DualHome}
+\label{sez:DualHome}
+\input{sez/DualHome/intro.tex}
+	\subsection{Assi informativi}
+		\subsubsection{Where}
+			\label{sez:DualWhere}
+			\input{sez/DualHome/where.tex}
+		\subsubsection{Who}
+			\label{sez:DualWho}
+			\input{sez/DualHome/who.tex}
+		\subsubsection{Why}
+			\label{sez:DualWhy}
+			\input{sez/DualHome/why.tex}
+		\subsubsection{What}
+			\label{sez:DualWhat}
+			\input{sez/DualHome/what.tex}
+		\subsubsection{When}
+			\label{sez:DualWhen}
+			\input{sez/DualHome/when.tex}
+		\subsubsection{How}
+			\label{sez:DualHow}
+			\input{sez/DualHome/how.tex}
+	\subsection{Considerazioni Generali}
+		\input{sez/DualHome/considerazioni.tex}	
+	\subsection{Mobile}
+		\label{sez:DualHome_Mobile}
+		\input{sez/DualHome/mobile.tex}
+	\subsection{In Breve}
+		\input{sez/DualHome/breve.tex}
+
+\newpage
+\section{FreedHome}
+	\subsection{Assi informativi}
+		\subsubsection{Where}
+			\input{sez/FreedHome/where.tex}
+		\subsubsection{Who}
+			\input{sez/FreedHome/who.tex}
+		\subsubsection{Why}
+			\input{sez/FreedHome/why.tex}
+		\subsubsection{What}
+			\input{sez/FreedHome/what.tex}
+		\subsubsection{When}
+			\input{sez/FreedHome/when.tex}
+		\subsubsection{How}
+			\input{sez/FreedHome/how.tex}
+	\subsection{Considerazioni Generali}
+			\input{sez/FreedHome/considerazioni.tex}	
+	\subsection{Mobile}
+			\input{sez/FreedHome/mobile.tex}
+	\subsection{In Breve}
+			\input{sez/FreedHome/breve.tex}
+			
+\newpage
+\section{Groove}
+\label{sez:Groove}
+\input{sez/Groove/intro.tex}
+	\subsection{Assi informativi}
+		\subsubsection{Where}
+			\input{sez/Groove/where.tex}
+		\subsubsection{Who}
+			\input{sez/Groove/who.tex}
+		\subsubsection{Why}
+			\input{sez/Groove/why.tex}
+		\subsubsection{What}
+			\input{sez/Groove/what.tex}
+		\subsubsection{When}
+			\input{sez/Groove/when.tex}
+		\subsubsection{How}
+			\input{sez/Groove/how.tex}
+	\subsection{Considerazioni Generali}
+	\label{sec:HomeDesc}
+			\input{sez/Groove/considerazioni.tex}	
+	\subsection{Mobile}
+			\input{sez/Groove/mobile.tex}
+	\subsection{In Breve}
+			\input{sez/Groove/breve.tex}
+
+
+\newpage
+\section{Elementi comuni}
+\label{sec:ElementiComuni}
+	\subsection{Menu}
+		\label{sec:BarraDiNavigazione}
+		\label{sec:Menu}
+		\input{sez/Elementi_Comuni/navbar.tex}
+		\subsubsection{Mobile}
+			\input{sez/Elementi_Comuni/navbar_mobile.tex}
+		\subsubsection{In Breve}
+			\input{sez/Elementi_Comuni/navbar_breve.tex}
+	\subsection{Ricerca}	
+		\label{sec:ricerca}
+		\input{sez/Elementi_Comuni/ricerca.tex}
+		\subsubsection{Mobile}
+			\input{sez/Elementi_Comuni/ricerca_mobile.tex}
+		\subsubsection{In Breve}
+			\input{sez/Elementi_Comuni/ricerca_breve.tex}
+		\subsection{Link}
+			\input{sez/Elementi_Comuni/link.tex}
+			
+		
+
+
+
+\newpage
+\section{Varie}
+	\subsection{Pagina 404}
+		\input{sez/Varie/404.tex}
+	\subsection{SEO}
+		\input{sez/Varie/SEO.tex}
+	\subsection{Nota sui nomi}
+		\input{sez/Varie/nota.tex}
+
+	
+\newpage
+\section{Considerazioni Finali}
+	\subsection{Recap}
+		\input{sez/Considerazioni/recap.tex}
+	\subsection{Giudizio Finale}
+		\input{sez/Considerazioni/giudizio.tex}
+	% confusione dualhome smarthome ecc.
+	% non posso comprare/vedere prezzo/vedere rivenditori 
+	% troppa importanza data a dualhome e smarthome
+\newpage
+\section{Note tecniche}
+	\subsection{Data al tempo dell'analisi}
+		\input{sez/Note/data.tex}
+	\subsection{Lista delle immagini}
+		\input{sez/Note/immagini.tex}
+
+\end{document}

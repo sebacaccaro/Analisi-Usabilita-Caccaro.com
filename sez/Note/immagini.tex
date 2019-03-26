@@ -1,0 +1,37 @@
+Ogni pagina analizzata del sito è salvata sia versione Desktop che Mobile in PDF e JPG. Come regola, ogni pagina salvata ha lo stesso nome della sezione che le fa riferimento. Le seguenti tabelle contengono la lista esplicita con i percorsi e gli url delle pagine in PDF. Il percorso è pressoché identico per le pagine in JPG.
+
+Per permettere alle tabelle di stare nel foglio, la variabile "\$/" nel percorso dello screen sta per "screen/PDF".
+
+\renewcommand{\arraystretch}{1.2}
+\begin{table}[H]
+	\centering
+\begin{tabular}{clp{5cm}}
+\textbf{Pagina} & \textbf{Screen} & \textbf{Url} \\
+\hline
+Homepage & \$/Homepage\_DESKTOP.pdf & \url{caccaro.com} \\
+DualHome & \$/DualHome\_DESKTOP.pdf & \url{caccaro.com/spazi-che-parlano-di-te/dualhome/} \\
+FreedHome & \$/FreedHome\_DESKTOP.pdf & \url{caccaro.com/sistemi-e-prodotti/freedhome/} \\
+Groove & \$/Groove\_DESKTOP.pdf & \url{caccaro.com/sistemi-e-prodotti/letti/groove/} \\
+Ricerca & \$/Ricerca\_DESKTOP.pdf & \url{caccaro.com/risultati-di-ricerca.html?search=camerino&commit=Cerca} \\
+404 & \$/404\_DESKTOP.pdf & \url{caccaro.com/a} \\
+\hline
+\end{tabular}
+\caption{Tabella delle pagine Desktop}
+\end{table}
+
+\begin{table}[H]
+	\centering
+\begin{tabular}{clp{5cm}}
+\textbf{Pagina} & \textbf{Screen} & \textbf{Url} \\
+\hline
+Homepage & \$/Homepage\_MOBILE.pdf & \url{caccaro.com} \\
+DualHome & \$/DualHome\_MOBILE.pdf & \url{caccaro.com/spazi-che-parlano-di-te/dualhome/} \\
+FreedHome & \$/FreedHome\_MOBILE.pdf & \url{caccaro.com/sistemi-e-prodotti/freedhome/} \\
+Groove & \$/Groove\_MOBILE.pdf & \url{caccaro.com/sistemi-e-prodotti/letti/groove/} \\
+Ricerca & \$/Ricerca\_MOBILE.pdf & \url{caccaro.com/risultati-di-ricerca.html?search=camerino&commit=Cerca} \\
+404 & \$/404\_MOBILE.pdf & \url{caccaro.com/a} \\
+\hline
+\end{tabular}
+\caption{Tabella delle pagine Mobile}
+\end{table}
+
